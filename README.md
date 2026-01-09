@@ -1,7 +1,9 @@
-Project Title /n
+Project Title  
+
 Medical Health Chatbot for System Analysis
 
 Problem Statement
+
 Inadequate Access to Preliminary Health Guidance in Resource-Limited Settings
 
 People often experience common health issues like fever, cough, or headaches but lack immediate, accessible tools for basic symptom triage. Consulting a doctor for every minor symptom is time-consuming, costly, and impractical—especially in rural areas, during off-hours, or for underserved populations in India (e.g., Maharashtra regions like Airoli).
