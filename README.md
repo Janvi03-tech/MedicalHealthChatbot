@@ -1,7 +1,7 @@
 Project Title  
 
-**Medical Health Chatbot for System Analysis
-**
+Medical Health Chatbot for System Analysis
+
 Problem Statement
 
 Inadequate Access to Preliminary Health Guidance in Resource-Limited Settings
@@ -25,9 +25,11 @@ Maps to possible diseases with actionable home advice.
 Promotes early doctor consultation disclaimers.
 
 Objective
+
 Develop a rule-based medical chatbot that identifies user-reported symptoms, suggests possible diseases, and provides basic health advice. The system demonstrates core concepts in system analysis, including knowledge representation, pattern matching, and conversational flow, while emphasizing that it is not a substitute for professional medical diagnosis.
 
 Dataset Description
+
 No external dataset is used. The system relies on a static, hand-crafted knowledge base—a Python dictionary mapping 4 common symptoms to possible diseases and advice:
 
 Symptoms covered: fever, cough, headache, stomach pain
@@ -41,6 +43,7 @@ Source: Manually curated for demonstration; expandable for real-world use
 This approach avoids data privacy issues in medical domains and prioritizes simplicity for system analysis.
 
 Methodology / Approach
+
 Rule-based pattern matching system:
 
 Input Processing: User query is lowercased; regex extracts exact symptom matches from the knowledge base.
@@ -62,6 +65,7 @@ Key Techniques: Regular expressions for symptom detection, random.choice for var
 This modular design supports easy extension (e.g., adding ML for fuzzy matching).
 
 Tools & Technologies Used
+
 Language: Python 3
 
 Libraries:
@@ -76,6 +80,7 @@ Version Control: GitHub (linked repo)
 No ML frameworks or databases—purely lightweight scripting.
 
 Steps to Run the Project
+
 Open in Google Colab via the badge link.
 
 Run the code cell (execution_count: 2).
@@ -91,6 +96,7 @@ View output stream for conversation simulation.
 Local run: Copy code to Python file, execute python filename.py.
 
 Results / Output
+
 Sample Interaction (from notebook output):
 
 Medical Chatbot (type 'bye' to exit)
@@ -106,6 +112,7 @@ Strengths: Quick responses, handles multi-symptoms (e.g., "fever cough" → comb
 Limitations: Exact-match only, no context/memory, basic scope. Ideal for system analysis demo.
 
 Dataset
+
 Inline knowledge base (copy-paste ready for expansion):
 
 knowledge_base = {
@@ -126,5 +133,3 @@ knowledge_base = {
         'advice': 'Avoid spicy food, antacids. Seek immediate help for sharp pain.'
     }
 }
-
-
